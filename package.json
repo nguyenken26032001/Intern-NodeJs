@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.1",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21"
+  },
+  "name": "intern-nodejs",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch  src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenken26032001/Intern-NodeJs.git"
+  },
+  "keywords": [
+    "learn",
+    "Node"
+  ],
+  "author": "TranVanNguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenken26032001/Intern-NodeJs/issues"
+  },
+  "homepage": "https://github.com/nguyenken26032001/Intern-NodeJs#readme",
+  "description": "",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^8.0.0"
+  }
+}
