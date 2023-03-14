@@ -4,5 +4,4 @@ const router = express.Router();
 
 router.get("/search", siteController.search);
 router.get("/", siteController.home);
-
 module.exports = router;

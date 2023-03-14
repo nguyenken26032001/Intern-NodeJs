@@ -2,7 +2,10 @@
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^7.0.1",
+    "method-override": "^3.0.0",
     "mongoose": "^7.0.1",
+    "mongoose-slug-generator": "^1.0.4",
+    "mongoose-softdelete": "^1.2.0",
     "nodemon": "^2.0.21"
   },
   "name": "intern-nodejs",
@@ -29,6 +32,7 @@
   "homepage": "https://github.com/nguyenken26032001/Intern-NodeJs#readme",
   "description": "",
   "devDependencies": {
+    "font-awesome": "^4.7.0",
     "morgan": "^1.10.0",
     "node-sass": "^8.0.0"
   }

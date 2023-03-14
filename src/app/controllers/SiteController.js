@@ -1,6 +1,7 @@
 const courses = require("../models/Courses");
 // const mongoose = require("mongoose");
 class SiteController {
+  //[GET] /
   index(req, res) {
     res.render("clients/news");
   }
@@ -15,6 +16,7 @@ class SiteController {
       })
       .catch((err) => console.log(err));
   }
+  //[GET] /search
   search(req, res) {
     res.render("search");
   }

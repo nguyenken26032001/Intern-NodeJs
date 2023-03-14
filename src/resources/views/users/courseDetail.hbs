@@ -1,0 +1,69 @@
+<div class="mt-4">
+  <div class="container">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h2 class="text-center">TRANG CHI TIET KHOA HOC</h2>
+      </div>
+      <div class="panel-body">
+        <form  method="POST" action="/Courses/{{khoaHoc._id}}?_method=PUT">
+          <div class="form-group mt-3">
+            <label for="usr">Tên Khóa học</label>
+            <input
+              required="true"
+              type="text"
+              class="form-control"
+              id="usr"
+              name="name"
+              value="{{khoaHoc.name}}"
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="email">Mô Tả</label>
+            <input
+              required="true"
+              type="text"
+              class="form-control"
+              id="description"
+              name="description"
+               value="{{khoaHoc.description}}"
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="birthday">Link hình ảnh</label>
+            <input
+              type="text"
+              class="form-control"
+              id="image"
+              placeholder="nhập văn bản"
+              name="image"
+               value="{{khoaHoc.image}}"
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="videoId">VideoId</label>
+            <input
+              type="text"
+              class="form-control"
+              id="image"
+              placeholder="nhập văn bản"
+              name="videoId"
+               value="{{khoaHoc.videoId}}"
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="videoId">Giá</label>
+            <input
+              type="text"
+              class="form-control"
+              id="image"
+              placeholder="nhập văn bản"
+              name="price"
+               value="{{khoaHoc.price}}"
+            />
+          </div>
+          <button class="btn btn-success my-4">Update Khoa Hoc</button>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
